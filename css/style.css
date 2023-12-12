@@ -87,7 +87,7 @@ iframe {
 /* HOME
 ------------------------------- */
 #home {
-    background-image: url(C:/Users/PC/Desktop/web/item/1.jpg);
+    background-image: url(../item/1.jpg);
     min-height: 100vh;
 }
 #home .page-title {
@@ -104,7 +104,7 @@ iframe {
     margin: 10px 0 42px;
 }
 #home2 {
-    background-image: url(C:/Users/PC/Desktop/web/item/2.jpg);
+    background-image: url(../item/2.jpg);
     min-height: 100vh;
     
 }
@@ -114,15 +114,15 @@ iframe {
 /* p
 ------------------------------- */
 #p1 {
-    background-image: url(C:/Users/PC/Desktop/web/item/3.jpg);
+    background-image: url(../item/3.jpg);
     min-height: 100vh;
 }
 #p2 {
-    background-image: url(C:/Users/PC/Desktop/web/item/4.jpg);
+    background-image: url(../item/4.jpg);
     min-height: 100vh;
 }
 #p3 {
-    background-image: url(C:/Users/PC/Desktop/web/item/5.jpg);
+    background-image: url(../item/5.jpg);
     min-height: 100vh;
 }
 #news .page-title {
