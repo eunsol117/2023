@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>MUSIC</title>
+        <meta name="description" content="음악 소개 페이지">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+        let timerID=null;
+            function startTimer(time) {
+                // 타이머 시작
+                timerID = setTimeout("load('https://youtu.be/_iGOWk-r614?feature=shared')", time);
+                
+                // 툴팁 메시지
+                document.getElementById("img").title = "타이머 작동 시작...";
+            }
+            function cancelTimer() {
+                if(timerID !=null) 
+                    clearTimeout(timerID); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+
+            let timerid=null;
+            function start_Timer(timee) {
+                // 타이머 시작
+                timerid = setTimeout("load('https://youtu.be/5MkfBNl_3pw?feature=shared')", timee);
+                
+                // 툴팁 메시지
+                document.getElementById("imgg").title = "타이머 작동 시작...";
+            }
+            function cancel_Timer() {
+                if(timerid !=null) 
+                    clearTimeout(timerid); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+            </script>
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            #q {
+                font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+                line-height: 1.7;
+                color: rgb(20, 18, 18);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="p3" class="big-bg">
+            <header class="page-header wrapper">
+                <h1>     </h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="p2.html">Back</a></li>
+                        <li><a href="index.html">Foword</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="wrapper">
+                <h2 class="page-title">     </h2>
+            </div><!-- /.wrapper -->
+        </div><!-- /#news --><br>
+
+        <div class="news-contents wrapper">
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">블루스, 재즈</h2>
+                    <p class="post-date">2022<span>~</span></p>
+                    <p class="post-cat">John Mayer(존 메이어)</p>
+                    <img src="C:/Users/PC/Desktop/web/item/다운로드 (9).jpg" alt="이미지">
+                </header>
+                
+                <p id="q">
+                    lp에 마우스를 올려주세요!<br><br>
+                    <img id="img" src="C:/Users/PC/Desktop/web/item/p3.1.jpg" 
+                    onmouseover="startTimer(2000)"
+                    onmouseout="cancelTimer()">
+                    <img id="imgg" src="C:/Users/PC/Desktop/web/item/p3.2.jpg" 
+                    onmouseover="start_Timer(2000)"
+                    onmouseout="cancel_Timer()"><br>
+                    <details id="q">
+                        <summary>가사 보기(Gravity - John Mayer)</summary>
+                        <pre>
+                            Gravity
+                            Gravity is working against me
+                            And gravity wants to bring me down
+                            Oh I'll never know what makes this man
+                            With all the love that his heart can stand
+                            Dream of ways to throw it all away
+                            Oh Gravity is working against me
+                            And gravity wants to bring me down
+                            Oh twice as much aint twice as good
+                            And can't sustain like a one half could
+                            It's wanting more
+                            That's gonna send me to my knees
+                            [repeat]
+                            Oh gravity, stay the hell away from me
+                            And gravity has taken better men than me (Now
+                            how can that be?)
+                            Just keep me where the light is
+                            Just keep me where the light is
+                            Keep you all where the light is
+                            Just keep us where the light is
+                            Ohh... where the light is! [repeat]
+                        </pre>
+                </details>
+                <details>
+                    <summary>설명 보기</summary>
+                    <pre>
+가창력, 연주력, 작곡력이 삼합을 이룬 셀프 프로듀스 앨범! [CONTINUUM]
+3년 만에 소개되는 존 메이어의 새 앨범 [Continuum]은
+‘내추럴’함을 장기로 내세웠던 그의 음악 세계의 결정판이라 할 만하다.
+이는 첫 세 곡을 통해서만도 확연히 드러나고 있는 부분인데,
+‘Waiting On The World To Change’의 여유로운 호흡,
+‘I Don’t Trust Myself(With Loving You)’에서의 유려한 감각,
+‘Belief’에서의 탁월한 연주 등, 모든 면에서 광채를 발하는 존 메이어의 현재상을 감지할 수 있다.
+                    </pre>
+                </details>
+                <details id="q">
+                    <summary>가사 보기(Slow Dancing in a Burning Room - John Mayer)</summary>
+                    <pre>
+                        It's not a silly little moment
+                        It's not the storm
+                        before the calm
+                        This is the deep and dying
+                        breath of this love
+                        we've been working on
+                        Can't seem to hold
+                        you like I want to
+                        so I can feel you in my arms
+                        Nobody's gonna come
+                        and save you
+                        we pulled too many
+                        false alarms
+                        We're going down
+                        and you can see it too
+                        We're going down
+                        and you know that we're doomed
+                        y dear we're slow
+                        dancing in a burning room
+                        I was the one
+                        you always dreamed of
+                        you were the one I tried to draw
+                        how dare you say
+                        it's nothin to me
+                        baby you're the only
+                        light I ever saw
+                        I make the most
+                        of all the sadness
+                        you'll be a bitch
+                        because you can
+                        you try to hit me just hurt me
+                        so you leave me feelin dirty
+                        cause you can't understand
+                        We're going down
+                        and you can see it too
+                        We're going down
+                        and you know
+                        that we're doomed
+                        My dear we're slow
+                        dancing in a burning room
+                        Go cry about it why don't you
+                        Go cry about it why don't you
+                        Go cry about it why don't you
+                        My dear we're slow dancing
+                        in a burning room
+                        Don't you think
+                        we oughta know by now
+                        Don't you think we should
+                        have learned somehow
+                        Don't you think
+                        we oughta know by now
+                        Don't you think we should
+                        have learned somehow
+                    </pre>
+                </details>
+                <details>
+                    <summary>설명 보기</summary>
+                    <pre>
+가창력, 연주력, 작곡력이 삼합을 이룬 셀프 프로듀스 앨범! [CONTINUUM]
+3년 만에 소개되는 존 메이어의 새 앨범 [Continuum]은
+‘내추럴’함을 장기로 내세웠던 그의 음악 세계의 결정판이라 할 만하다.
+이는 첫 세 곡을 통해서만도 확연히 드러나고 있는 부분인데,
+‘Waiting On The World To Change’의 여유로운 호흡,
+‘I Don’t Trust Myself(With Loving You)’에서의 유려한 감각,
+‘Belief’에서의 탁월한 연주 등, 모든 면에서 광채를 발하는 존 메이어의 현재상을 감지할 수 있다.
+                    </pre>
+                </details>
+            </p>
+            </article>
+
+            <aside>
+                <h3 class="sub-title">추천 곡 리스트</h3>
+                <ul class="sub-menu">
+                    <li><a href="javascript:load('https://youtu.be/eJ7yxQqn4i4?feature=shared')">1. Stitched Up(feat.John Mayer) - Herbie Hancock</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Js6JHwHYFk4?feature=shared')">2. I Don't Need No Doctor - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/O3MICvgXvHM?feature=shared')">3. Covered in Rain - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/9qIunneAx6Y?feature=shared')">4. Bold as Love - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/s7KzzospHVY?feature=shared')">5. Who Did You Tink I Was - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/9WDkazi__Bw?feature=shared')">6. Vultures - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/4s1sKigA17c?feature=shared')">7. I Don't Trust Myself (With Loving You) - John Mayer</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Nt-jb5JHWB8?feature=shared')">8. Edge of Desire - John Mayer</a></li>
+                </ul>
+
+                <h3 class="sub-title">음악 취향 변화</h3>
+                <p>
+                    <img src="C:/Users/PC/Desktop/web/item/p3.11.jpg" alt="이미지">
+                </p>
+            </aside>
+        </div><!-- /.news-contents -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2023 silversound</small></p>
+            </div>
+        </footer>
+    </body>
+</html>

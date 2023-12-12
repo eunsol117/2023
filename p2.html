@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>MUSIC</title>
+        <meta name="description" content="음악 소개 페이지">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+        let timerID=null;
+            function startTimer(time) {
+                // 타이머 시작
+                timerID = setTimeout("load('https://youtu.be/F01sUq_Rtds?feature=shared')", time);
+                
+                // 툴팁 메시지
+                document.getElementById("img").title = "타이머 작동 시작...";
+            }
+            function cancelTimer() {
+                if(timerID !=null) 
+                    clearTimeout(timerID); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+
+            let timerid=null;
+            function start_Timer(timee) {
+                // 타이머 시작
+                timerid = setTimeout("load('https://youtu.be/ZZEv8ZB6G_s?feature=shared')", timee);
+                
+                // 툴팁 메시지
+                document.getElementById("imgg").title = "타이머 작동 시작...";
+            }
+            function cancel_Timer() {
+                if(timerid !=null) 
+                    clearTimeout(timerid); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+            </script>
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            #q {
+                font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+                line-height: 1.7;
+                color: rgb(20, 18, 18);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="p2" class="big-bg">
+            <header class="page-header wrapper">
+                <h1>     </h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="p1.html">Back</a></li>
+                        <li><a href="p3.html">Foword</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="wrapper">
+                <h2 class="page-title">     </h2>
+            </div><!-- /.wrapper -->
+        </div><!-- /#news --><br>
+
+        <div class="news-contents wrapper">
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">락, 발라드</h2>
+                    <p class="post-date">2019~<span>2021</span></p>
+                    <p class="post-cat">YB(윤도현 밴드), 김광석</p>
+                    <img src="C:/Users/PC/Desktop/web/item/다운로드 (8).jpg" alt="이미지">
+                    <img src="C:/Users/PC/Desktop/web/item/다운로드 (7).jpg" alt="이미지">
+                </header>
+                
+                <p id="q">
+                    lp에 마우스를 올려주세요!<br><br>
+                    <img id="img" src="C:/Users/PC/Desktop/web/item/p2.1.jpg" 
+                    onmouseover="startTimer(2000)"
+                    onmouseout="cancelTimer()">
+                    <img id="imgg" src="C:/Users/PC/Desktop/web/item/p2.2.jpg" 
+                    onmouseover="start_Timer(2000)"
+                    onmouseout="cancel_Timer()"><br>
+                    <details id="q">
+                        <summary>가사 보기(박하사탕 - YB)</summary>
+                        <pre>
+                            떠나려하네 저 강물 따라서
+                            돌아가고파 순수했던 시절
+                            끝나지 않은 더러운 내 삶에
+                            보이는 것은 얼룩진 추억 속의 나
+                            고통의 시간만 보낸 뒤에는
+                            텅빈 하늘만이 아름다웠네
+                            그 하늘마저 희미해지고
+                            내 갈 곳은 다시
+                            못 올 그 곳 뿐이야 오
+                            열어줘 제발 다시 한번만
+                            두려움에 떨고 있어
+                            열어줘 제발 다시 한번만 오
+                            단 한번만이라도
+                            나 돌아갈래 어릴 적 꿈에
+                            나 돌아갈래 그곳으로
+                            남아 있는 건 아무것도 없어
+                            그 시간들도 다시 오진 않아
+                            어지러워 눈을 감고 싶어
+                            내 갈 곳은 다시 못 올 그 곳뿐이야
+                            열어줘 제발 다시 한번만
+                            두려움에 떨고 있어
+                            열어줘 제발 다시 한번만
+                            단 한번만이라도
+                            나 돌아갈래 어릴 적 꿈에
+                            나 돌아갈래 그곳으로
+                        </pre>
+                </details>
+                <details>
+                    <summary>설명 보기</summary>
+                    <pre>
+        대한민국 록 지킴이 '윤뺀'의 새 앨범.
+        점점 하고싶은대로 음악을 하겠다는 의지가 드러난다.
+        균형을 갖춘 밴드로 거듭나는 음반.
+        앨범 제작과정이 또 한장에.
+                    </pre>
+                </details>
+                <details id="q">
+                    <summary>가사 보기(사랑했지만 - 김광석)</summary>
+                    <pre>
+                        어제는 하루 종일 비가 내렸어
+                        자욱하게 내려앉은 먼지 사이로
+                        귓가에 은은하게 울려 퍼지는
+                        그대 음성 빗속으로 사라져 버려
+                        때론 눈물도 흐르겠지
+                        그리움으로
+                        때론 가슴도 저리겠지
+                        외로움으로
+                        사랑했지만
+                        아 그대를 사랑했지만
+                        그저 이렇게 멀리서 바라볼 뿐
+                        다가 설 수 없어
+                        지친 그대 곁에 머물고 싶지만
+                        떠날 수 밖에
+                        그대를 사랑했지만
+                        그대를 사랑했지만
+                    </pre>
+                </details>
+                <details>
+                    <summary>설명 보기</summary>
+                    <pre>
+        김광석의 노래는 너무나 무던하게 일상을 담아내기 때문에 과장됨 없는 다큐멘터리와 같다.
+        흘리듯 듣던, 가슴에 새겨 가며 듣던 그의 노래를 들을 때면 언제나 가슴 안에서 울컥 치미는 무언가를 느낄 수 있는 것도
+        그의 노래가 가진 일상의 힘일 것이다.
+                    </pre>
+                </details>
+            </p>
+            </article>
+
+            <aside>
+                <h3 class="sub-title">추천 곡 리스트</h3>
+                <ul class="sub-menu">
+                    <li><a href="javascript:load('https://youtu.be/oEaxVe-g8aw?feature=shared')">1. 사랑하기 때문에 - 유재하</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Fy9SW-cf-74?feature=shared')">2. 잊어야 한다는 마음으로 - 김광석</a></li>
+                    <li><a href="javascript:load('https://youtu.be/WYy2fROj7uU?feature=shared')">3. 그대라는 사치 - 한동근</a></li>
+                    <li><a href="javascript:load('https://youtu.be/yY7dRwJnJZ0?feature=shared')">4. Hello - 허각</a></li>
+                    <li><a href="javascript:load('https://youtu.be/eoQAnGx4Pss?feature=shared')">5. Wherever you are - ONE OK ROCK</a></li>
+                    <li><a href="javascript:load('https://youtu.be/bkr6RNjuENc?feature=shared')">6. 애정표현 - 플라워</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Cz10jwWy98E?feature=shared')">7. 알루미늄 - 브로큰 발렌타인(Broken Valentine)</a></li>
+                    <li><a href="javascript:load('https://youtu.be/MY-bDlTbNaw?feature=shared')">8. 지독하게 - FTISLAND(FT아일랜드)</a></li>
+                </ul>
+
+                <h3 class="sub-title">음악 취향 변화</h3>
+                <p>
+                    <img src="C:/Users/PC/Desktop/web/item/p2.11.jpg" alt="이미지">
+                </p>
+            </aside>
+        </div><!-- /.news-contents -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2023 silversound</small></p>
+            </div>
+        </footer>
+    </body>
+</html>

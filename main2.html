@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>MUSIC</title>
+        <script>
+            let tds;
+            let prevIndex=0, index=0;
+            window.onload = function () { // 웹 페이지의 로딩 완료시 실행
+                tds = document.getElementsByTagName("td");	
+                tds[index].style.backgroundColor = "orchid";
+            }
+            window.onkeydown = function (e) {
+                switch(e.key) {
+                    case "ArrowLeft" : 
+                    if(index%3 == 0) return; // 맨 왼쪽 셀의 경우
+                    index--; 
+                    break;
+                    case "ArrowRight" : 
+                    if(index%3 == 2) return; // 맨 오른쪽 셀의 경우
+                    index++; 
+                    break;
+                }
+                tds[index].style.backgroundColor = "orchid";
+                tds[prevIndex].style.backgroundColor = "white";
+                prevIndex = index;
+                }
+                function load(URL) {
+                    window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+                }
+                </script>
+    <!-- CSS -->
+    <style>
+        td { width:150px; height:500px; border:0.5px solid orchid; position:center; }
+        table {
+            margin-left:auto;
+            margin-right:auto;
+            margin-top: 45px;
+        }
+        table, td, tr {
+            border-collapse: collapse;
+            border: 1px solid;
+        }
+        #b {
+            font-size: 100px;
+        }
+    </style>
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    
+    </head>
+
+    <body>
+        <div id="home2" class="big-bg">
+            <header class="page-header wrapper">
+                <h1 id="a">아래의 건반 중 하나를 클릭해주세요</h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="index.html">Back</a></li>
+                        <li><a href="p1.html">Foword</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <table id="b">
+                <tr><td><a href="p1.html" width="150" height="150" target="_blank"><img src="C:/Users/PC/Desktop/web/item/6.jpg"></a></td><td><a href="p2.html" width="150" height="150" target="_blank"><img src="C:/Users/PC/Desktop/web/item/6.jpg"></a></td><td><a href="p3.html" width="150" height="150" target="_blank"><img src="C:/Users/PC/Desktop/web/item/6.jpg"></a></td></tr>
+            </table>
+        </div>
+    </body>
+</html>

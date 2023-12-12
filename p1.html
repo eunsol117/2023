@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>MUSIC</title>
+        <meta name="description" content="음악 소개 페이지">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+            let timerID=null;
+            function startTimer(time) {
+                // 타이머 시작
+                timerID = setTimeout("load('https://youtu.be/eelfrHtmk68?feature=shared')", time);
+                
+                // 툴팁 메시지
+                document.getElementById("img").title = "타이머 작동 시작...";
+            }
+            function cancelTimer() {
+                if(timerID !=null) 
+                    clearTimeout(timerID); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+
+            let timerid=null;
+            function start_Timer(timee) {
+                // 타이머 시작
+                timerid = setTimeout("load('https://youtu.be/UsaJsymfuWU?feature=shared')", timee);
+                
+                // 툴팁 메시지
+                document.getElementById("imgg").title = "타이머 작동 시작...";
+            }
+            function cancel_Timer() {
+                if(timerid !=null) 
+                    clearTimeout(timerid); // 타이머 중단
+            }
+            function load(URL) {
+                window.open(URL, "myWin", "left=300,top=300,width=400,height=300");
+            }
+            </script>
+
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            #q {
+                font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+                line-height: 1.7;
+                color: rgb(20, 18, 18);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="p1" class="big-bg">
+            <header class="page-header wrapper">
+                <h1>     </h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href="main2.html">Back</a></li>
+                        <li><a href="p2.html">Foword</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="wrapper">
+                <h2 class="page-title">     </h2>
+            </div><!-- /.wrapper -->
+        </div><!-- /#news --><br>
+
+        <div class="news-contents wrapper">
+            <article>
+                <header class="post-info">
+                    <h2 class="post-title">힙합, R&B</h2>
+                    <p class="post-date">2016~<span>2018</span></p>
+                    <p class="post-cat">지코(ZICO), 딘(DEAN)</p>
+                    <img src="C:/Users/PC/Desktop/web/item/p1.1.jpg" alt="이미지">
+                    <img src="C:/Users/PC/Desktop/web/item/p1.2.jpg" alt="이미지">
+                </header>
+                
+                <p id="q">
+                    lp에 마우스를 올려주세요!<br><br>
+                    <img id="img" src="C:/Users/PC/Desktop/web/item/p1.4.jpg" 
+                    onmouseover="startTimer(2000)"
+                    onmouseout="cancelTimer()">
+                    <img id="imgg" src="C:/Users/PC/Desktop/web/item/p1.3.jpg" 
+                    onmouseover="start_Timer(2000)"
+                    onmouseout="cancel_Timer()"><br>
+                    <details id="q">
+                        <summary>가사 보기(D - DEAN)</summary>
+                        <pre>
+                            Love-love the stars
+                            Love-love the moon
+                            별 다를 것 없이
+                            똑같은 공기
+                            똑같은 침대에서
+                            보이는 천장까지
+                            왜 별 이유 없이
+                            공허한 건지
+                            그저 몇 시간 째
+                            멍만 때리는 게
+                            처음에는
+                            배가 고픈가 했었는데
+                            No way no way no way
+                            요새는
+                            칸예 새 앨범을 들어도
+                            뻔해 뻔해 뻔해
+                            TV를 틀어 놓은 채
+                            채널만 돌려 보네
+                            But bae 별 의미 없네..
+                            다 너의 반, 반
+                            반의 반의 반도
+                            채워주질 못 하네
+                            채워지지가 않네 Yeah
+                            딱 너의 반, 반
+                            반의 반이라도 내게 남았더라면
+                            이렇게 붕 떠있지는 않을 텐데..
+                            너 없는 밤도
+                            달은 떴다는데
+                            보이지 않아
+                            네 생각에 가려진 채 Yeah
+                            마음이 기운 채로
+                            판단이 설 리가
+                            너 하나 없다고
+                            내가 이럴 리가 없는데
+                            자꾸 그 때로 또 되감기 돼
+                            네가 있던 자리
+                            그 자리 위 밤하늘까지 보여
+                            저 반 쪽 짜리 달이
+                            딱 지금 나의 모습 같지
+                            다 너의 반, 반
+                            반의 반의 반도
+                            채워주질 못 하네
+                            채워지지가 않네 Yeah
+                            딱 너의 반, 반
+                            반의 반이라도
+                            내게 남았더라면
+                            이렇게 붕 떠있진 않을 텐데..
+                            내일의 어둠이
+                            저 달을 한 입 삼키면
+                            둘이 만들었던
+                            세계도 더 작아질 텐데..
+                            그리움만 꽉 차겠지
+                            지루한 하루들을 보낸 후
+                            보름달 하늘에 뜰 때쯤에는
+                            우린 하나라고
+                            떠들고 다닐 때만 해도
+                            너는 너고 나는 나라는 게
+                            이렇게도 명확해질지 몰랐어.
+                            서로 생각할 시간.
+                            시간 초과된 기분
+                            더 지나면 서로 돌아오라고도 못 해
+                            난 지금 돈키호테처럼
+                            정처 없이 네 사랑을 꿈꾸네
+                            난 네 눈만 봐도
+                            텅 빈 이 맘을 다 채울 텐데
+                            다 너의 반, 반
+                            반의 반의 반도
+                            채워주질 못 하네
+                            채워지지가 않네 Yeah
+                            딱 너의 반, 반
+                            반의 반이라도 내게 남았더라면
+                            이렇게 붕 떠있진 않을 텐데..
+                            Love-love the stars
+                            Love-love the moon
+                            딱 너의 반, 반
+                            반의 반이라도
+                            내게 남았더라면
+                            그랬더라면..</pre>
+                    </details>
+                    <details>
+                        <summary>설명 보기</summary>
+                        <pre>
+            타이틀 트랙 "D (half moon) (ft. 개코)"는 함께였을 때의 채워짐을 느끼지 못 하고
+            무엇을 하던 반쪽 밖에 되지 못하는 부족함을 느끼는 연인의 모습을 담았다.
+            '그'는 공허한 마음을 이기지 못 하고 옛 연인의 집으로 찾아가고,
+            '그녀'는 옛 연인과의 기억이 담긴 집에서 옛 기억을 뒤지며 무기력한 모습을 보인다.
+                        </pre>
+                    </details>
+                    <details id="q">
+                        <summary>가사 보기(Boys and Girls - ZICO)</summary>
+                        <pre>
+                            Don't worry about money 놀자 오빠가 무리할게
+                            넌 그냥 옆에서 편하게 groove 타기만해 alright
+                            I'm a boy you're a girl
+                            I'm a boy but you're a girl
+                            I'm a boy you're a girl
+                            아름다운 여자는 대접 받아야 해
+                            아는 친구들 불러모아
+                            흥이 많고 사교성 좋은 애들로만
+                            여긴 한국이지만 서구적인 느낌 가득
+                            아 참, 일렉은 절대 안 틀 거야
+                            흠뻑 다 젖어 알콜로 샤워해 ice bucket challenge
+                            저 고주망태는 누가 낚아 챌는지
+                            키는 컸어도 호기심은 미성년
+                            주체 못하는 바람에 주최한 festivity
+                            OH UH OH UH yeah
+                            날 알아봐도 티나게 리액션 하지 말아줘
+                            OH UH OH UH
+                            인스타 업뎃이 목적이면 겉옷 챙겨서 나가줘
+                            OH UH OH UH
+                            안목 있는 누나들 want to see ma tattoo
+                            전화기 뒤집자 분위기 좋으니까
+                            진지 빠는 즉시 귀가조치야
+                            Don't worry about money 놀자 오빠가 무리할게
+                            넌 그냥 옆에서 편하게 groove 타기만해 alright
+                            I'm a boy you're a girl
+                            I'm a boy but you're a girl
+                            I'm a boy you're a girl
+                            아름다운 여자는 대접 받아야 해
+                            이 파티에는 대부분이 잘나가니까
+                            섣불리 가오 잡다간 곧바로 망신살
+                            사양 말고 마셔 그건 네 인생샷
+                            아무나 잡고 사진 박아도 네 인생샷
+                            I'm intoxicated 남여남여 나눠 착석해
+                            음탕한 게임 하더라도 밖에선 입 단속해
+                            해 뜨고 네 화장도 뜨고
+                            나 먼저 자리 뜨기 전까지 계속 뜨거
+                            OH UH OH UH yeah
+                            다 망가지는 마당에 고상한 척은 자제해
+                            OH UH OH UH
+                            뜬금없는 일 얘기나 고민 상담은 따로해
+                            OH UH OH UH
+                            흑기사 자처하는 쟤는 무슨 심보
+                            전화기 뒤집자 분위기 좋으니까
+                            진지 빠는 즉시 귀가조치야
+                            Don't worry about money 놀자 오빠가 무리할게
+                            넌 그냥 옆에서 편하게 groove 타기만해 alright
+                            I'm a boy you're a girl
+                            I'm a boy but you're a girl
+                            I'm a boy you're a girl
+                            아름다운 여자는 대접 받아야 해
+                            Say hello to ma little friends
+                            개념 다 차있지
+                            실수하지 않게 당부해놨지
+                            OH UH OH UH
+                            부담 없이 누리면 돼
+                            Don't worry about money 놀자 오빠가 무리할게
+                            넌 그냥 옆에서 편하게 groove 타기만해 alright
+                            I'm a boy you're a girl
+                            I'm a boy but you're a girl
+                            I'm a boy you're a girl
+                            아름다운 여자는 대접 받아야 해
+                        </pre>
+                    </details>
+                    <details>
+                        <summary>설명 보기</summary>
+                        <pre>
+                타이틀곡 ‘Boys and Girls' 는 지코의 세련된 음악성을 곳곳에서 느낄 수 있는 곡이다.
+                랫쳇기반의 청량감 넘치는 리듬과 지코 특유의 박자감 있는 랩, 세련된 멜로디라인이 돋보이는 곡으로
+                지코가 기존에 발표해왔던 트랙들과 전혀 다른 색다른 감성을 드러내 눈길을 끈다.
+                특히 신예 보컬 바빌론의 환상적인 보이스를 통해 지코가 처음으로 보컬이 가미된 솔로 곡을 공개한 점도 눈 여겨 볼만하다.
+                지코는 대중성을 가미해 기존에 자신이 갖고 있던 악동의 강렬한 이미지를 살짝 벗어나면서도
+                스스로가 지닌 고유의 색은 고스란히 유지하며 또 하나의 트렌디함을 이끌어내려 하고 있다.
+                이기백 감독이 메가폰을 잡은 뮤직비디오 또한 푸른 청정섬 제주도에서 촬영되었으며
+                음악에 걸맞은 시원한 청량감과 함께 지코 만의 스웨그를 아낌없이 드러내고 있다.
+                        </pre>
+                    </details>
+                </p>
+            </article>
+
+            <aside>
+                <h3 class="sub-title">추천 곡 리스트</h3>
+                <ul class="sub-menu">
+                    <li><a href="javascript:load('https://youtu.be/TcytstV1_XE?feature=shared')">1. 잊어버리지마 - Crush(크러쉬)</a></li>
+                    <li><a href="javascript:load('https://youtu.be/PIh07c_P4hc?feature=shared')">2. Ordinary People - John Legend</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Rf0NqpElU9U?feature=shared')">3. I'm in Love - 라디(Ra. D)</a></li>
+                    <li><a href="javascript:load('https://youtu.be/qAsHVwl-MU4?feature=shared')">4. Ghost Town - Kanye West</a></li>
+                    <li><a href="javascript:load('https://youtu.be/41vm47l8DHU?feature=shared')">5. Weight in Gold - gallant</a></li>
+                    <li><a href="javascript:load('https://youtu.be/dVSQCDXNyGU?feature=shared')">6. 이 밤의 끝을 잡고 - 솔리드(Solid)</a></li>
+                    <li><a href="javascript:load('https://youtu.be/zDKO6XYXioc?feature=shared')">7. End Of The Road - Boyz II Men</a></li>
+                    <li><a href="javascript:load('https://youtu.be/Ju8Hr50Ckwk?feature=shared')">8. If I Ain't Got You - Alicia Keys</a></li>
+                </ul>
+
+                <h3 class="sub-title">음악 취향 변화</h3>
+                <p>
+                    <img src="C:/Users/PC/Desktop/web/item/p1.11.jpg" alt="이미지">
+                </p>
+            </aside>
+        </div><!-- /.news-contents -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2023 silversound</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
